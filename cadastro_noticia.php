@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilo.css">
+
         <title>FakeNews - O jornal necessário</title>
     </head>
     <body>

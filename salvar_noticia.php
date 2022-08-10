@@ -40,6 +40,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilo.css">
+
         <title>FakeNews - O jornal necessário</title>
     </head>
     <body>
@@ -47,7 +49,9 @@
 
         <div class="mensagem">
             <h1><?= $mensagem ?></h1>
+        </div>
 
+        <div class="voltar">
             <a href="index.php">Voltar</a>
         </div>
     </body>
