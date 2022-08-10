@@ -1,0 +1,10 @@
+CREATE DATABASE fakenews;
+
+USE fakenews;
+
+CREATE TABLE noticias(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    materia TEXT NOT NULL,
+    autor VARCHAR(255) NOT NULL
+);
