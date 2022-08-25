@@ -73,3 +73,12 @@ form input[type="submit"]{
     border: 2px solid #d00023;
     color: #fff;
 }
+
+.noticia{
+    color: #fff;
+    border: 2px dashed #ff00ff;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}

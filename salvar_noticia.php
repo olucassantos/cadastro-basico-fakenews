@@ -1,16 +1,10 @@
 <?php
+    include 'conexao.php'; // Faz a conexão com o banco de dados
+
     // Pega os valores que vieram do formulário e guarda em variáveis
     $tituloFormulario = $_POST['titulo'];
     $materiaFormulario = $_POST['materia'];
     $autorFormulario = $_POST['autor'];
-
-    // Fazer a conexão com o banco de dados
-    try{
-        $conexao = new PDO("mysql:host=localhost;dbname=fakenews;charset=utf8", "root", "");
-    }catch(PDOException $e){
-        echo "Não foi possivel conectar ao banco de dados: " . $e->getMessage();
-        exit;
-    }
 
     // Cria a consulta
     $sql = "INSERT INTO noticias 
