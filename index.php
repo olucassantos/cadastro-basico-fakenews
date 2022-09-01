@@ -28,13 +28,12 @@
         <?php foreach ($noticias as $noticia) { // Laço de repetição para as noticias que vieram do banco ?>
             <div class="noticia">
                 <h2><?= $noticia['titulo'] ?></h2>
-                <p>
-                    <?= $noticia['materia'] ?>
-                </p>
 
                 <p>
                     Autor: <?= $noticia['autor'] ?>
                 </p>
+
+                <a href="mostra_noticia.php?id=<?= $noticia['id'] ?>">Ver Noticia</a>
             </div>
         <?php } ?>
     </body>

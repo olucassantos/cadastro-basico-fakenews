@@ -9,6 +9,10 @@ h1{
     font-size: 50px;
 }
 
+h2, h4{
+    color: #fff;
+}
+
 a{
     color: #ff00ff;
     text-decoration: none;
