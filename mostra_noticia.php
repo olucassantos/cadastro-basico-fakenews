@@ -1,7 +1,7 @@
 <?php
     include 'conexao.php'; // Faz a conexão com o banco de dados
 
-    $id = $_GET['id'];
+    $id = $_GET['id']; // Pegar o ID que veio da rota (URL)
 
     // Criar a consulta
     $sql = "SELECT * FROM noticias WHERE id = $id";
@@ -32,6 +32,7 @@
 
         <div class="voltar">
             <a href="index.php">Voltar</a>
+            <a href="editar_noticia.php?id=<?= $id ?>">Editar Notícia</a>
         </div>
     </body>
 </html>
